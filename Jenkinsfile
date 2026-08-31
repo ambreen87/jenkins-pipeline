@@ -16,5 +16,11 @@ pipeline {
                 echo "This is store stage" 
             }
         }
+        stage('modify') { 
+            steps {
+                echo "This is modify stage"
+            }
+        }
+        
     }
 }
