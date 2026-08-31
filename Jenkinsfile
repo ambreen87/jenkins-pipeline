@@ -19,6 +19,8 @@ pipeline {
         stage('modify') { 
             steps {
                 echo "This is modify stage"
+            }
+        }
         
     }
 }
