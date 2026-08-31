@@ -21,7 +21,6 @@ pipeline {
                 echo "This is modify stage"
             }
         }
-        
         stage('new-entry') { 
             steps {
                 echo "This is modify stage"
